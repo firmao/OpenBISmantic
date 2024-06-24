@@ -2,6 +2,20 @@
 # openBISmantic [![Publish Docker image](https://github.com/Mat-O-Lab/OpenBISmantic/actions/workflows/PublishContainer.yml/badge.svg)](https://github.com/Mat-O-Lab/OpenBISmantic/actions/workflows/PublishContainer.yml) ![Export Data](https://github.com/Mat-O-Lab/OpenBISmantic/actions/workflows/ExportData.yml/badge.svg)
 Demonstrator of a Export Mechanism for openBIS Data to Semantic Data.
 
+# Prototype
+```bash
+URL: https://openbismantic.matolab.org/openbis/webapp/eln-lims
+user: public-user
+password: public
+after login access the URL: https://openbismantic.matolab.org/openbismantic
+```
+![image](https://github.com/Mat-O-Lab/OpenBISmantic/assets/9248325/a88e19f3-00c5-4817-83c4-ed3f5cb9ce3b)
+```bash
+Click in "exporter"
+Select some instance and click on the button "Load selected"
+Then you can export the triples in .ttl format or run a SPARQL query.
+```
+
 # Install
 
 ## pull repository
